@@ -77,7 +77,7 @@ if st.button("Analyze Event", type = "primary"):
     )
 
     if prediction == 1:
-        st.success("Predicted Class: Higgs_like Signal Event")
+        st.success("Predicted Class: Higgs-like Signal Event")
     else:
         st.info("Predicted Class: Background Event")
 
