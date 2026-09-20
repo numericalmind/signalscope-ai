@@ -82,8 +82,8 @@ if st.button("Analyze Event", type = "primary"):
         st.info("Predicted Class: Background Event")
 
     st.caption(
-        "This result is a machine-learning prediction for educational"
-        "and demonstration purposes."
+    "This result is a machine-learning prediction for educational "
+    "and demonstration purposes."
     )
 
     st.divider()
@@ -113,7 +113,7 @@ if st.button("Analyze Event", type = "primary"):
     auc_data = pd.DataFrame({
         "Feature Set":[
             "Low-Level Only (21)",
-            "High-Level Only(7)",
+            "High-Level Only (7)",
             "All Features (28)"
         ],
         "ROC-AUC":[
