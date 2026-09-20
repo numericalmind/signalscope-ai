@@ -154,3 +154,56 @@ signalscope-ai/
 ├── requirements.txt
 ├── README.md
 └── data/
+```
+
+## Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/numericalmind/signalscope-ai.git
+cd signalscope-ai
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the Streamlit application:
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## Limitations
+
+SignalScope AI is an educational and experimental prototype.
+
+The current experiments use a 10,000-event subset of the full HIGGS dataset, and the deployed demo uses only the seven high-level features.
+
+The predictions should therefore not be interpreted as results from a real particle-physics analysis pipeline.
+
+---
+
+## Future Work
+
+Potential extensions include:
+
+- training on a larger portion of the HIGGS dataset
+- testing additional machine-learning models
+- adding SHAP-based explainability
+- investigating classification thresholds
+- extending the interactive physics visualizations
+- comparing learned representations with physics-engineered features
+
+---
+
+## Project Goal
+
+SignalScope AI demonstrates how domain knowledge and machine learning can work together in scientific classification problems.
+
+Rather than treating particle-physics data as a generic ML dataset, the project focuses on understanding the contribution of physically motivated features to model performance and interpretability.
